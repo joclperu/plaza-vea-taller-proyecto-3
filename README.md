@@ -17,14 +17,14 @@ Si quieren trabajarlo junto a visual studio pueden seguir el proximo enlace.
 
 https://www.visualstudio.com/en-us/get-started/code/gitquickstart
 
-*En caso de no realizar este paso se da la probabilidad que haya conflictos al hacer el pull request. Si hay conflictos su commit SERA RECHAZADO*
-
 Recuerden que para hacer un *pull request* los pasos son:
 * Entrar a https://github.com/carloshs92/plaza-vea-taller-proyecto-3/ 
 * Busca el boton "New pull request"
 * Hacer click al enlace "compare across forks"
 * En el base fork debe apuntar a la rama base *master*
 * En el heade fork debe estar su rama con los cambios.
+
+Si quieren que su pull request no sea *RECHAZADO* le sugiero seguir los pasos que se detallan a continuacion.
 
 ### Como actualizar una rama despues de hacer el fork
 Los pasos a detallar se encuentran en este enlace: http://community.logicalbricks.com/node/217
@@ -52,6 +52,7 @@ git fetch upstream
 git merge upstream/master
 ```
 
+*En caso de no realizar el paso anterior se da la probabilidad que haya conflictos al hacer el pull request. Si hay conflictos, su commit SERA RECHAZADO*
 
 ### Quiero subir mis cambios a mi rama
 Los pasos basicos son:
