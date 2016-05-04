@@ -13,4 +13,4 @@ Para poder realizar un Fork deben tener una cuenta en GitHub.
 ### Acuerdos del Grupo
 1. Como lenguaje de programación se ha quedado en Visual .Net  C# 2012.
 2. Como Base de Datos se quedo en SQL Server 2012.
-3. Se esta quedando con un modelo de tres capas (view, controller y Acces Data)
+3. Se esta quedando con un modelo de tres capas (presentacion, negocio, acceso a datos)
