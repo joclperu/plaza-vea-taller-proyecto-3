@@ -48,19 +48,28 @@ public partial class Principal : System.Web.UI.MasterPage
         Menu1.Items[3].Enabled = false;
 
         #region "Menú compras"
-        Menu1.Items[0].Text = "COMPRAS";
-        Menu1.Items[0].ToolTip = "COMPRAS";
-        Menu1.Items[0].Value = "COMPRAS";
 
-        Menu1.Items[0].ChildItems[0].NavigateUrl = "~/SPV_Compras/SPV_Requerimiento_Compra_Bandeja.aspx";
-        Menu1.Items[0].ChildItems[0].Text = "REQUERIMIENTO DE COMPRAS";
-        Menu1.Items[0].ChildItems[0].ToolTip = "REQUERIMIENTO DE COMPRAS";
-        Menu1.Items[0].ChildItems[0].Value = "REQUERIMIENTO DE COMPRAS";
+        Menu1.Items[0].Text = "PROVEEDORES";
+        Menu1.Items[0].ToolTip = "PROVEEDORES";
+        Menu1.Items[0].Value = "PROVEEDORES";
+
+        Menu1.Items[0].ChildItems[0].NavigateUrl = "~/SPV_Proveedores/SPV_EvaluarPoliticaCandidato.aspx";
+        Menu1.Items[0].ChildItems[0].Text = "Evaluar Politicas Candidato";
+        Menu1.Items[0].ChildItems[0].ToolTip = "Evaluar Politicas Candidato";
+        Menu1.Items[0].ChildItems[0].Value = "Evaluar Politicas Candidato";
         #endregion
 
-        Menu1.Items[1].Text = "PROVEEDORES";
-        Menu1.Items[1].ToolTip = "PROVEEDORES";
-        Menu1.Items[1].Value = "PROVEEDORES";
+        
+        Menu1.Items[1].Text = "COMPRAS";
+        Menu1.Items[1].ToolTip = "COMPRAS";
+        Menu1.Items[1].Value = "COMPRAS";
+
+        #Menu1.Items[0].ChildItems[0].NavigateUrl = "~/SPV_Compras/SPV_Requerimiento_Compra_Bandeja.aspx";
+        #Menu1.Items[0].ChildItems[0].Text = "REQUERIMIENTO DE COMPRAS";
+        #Menu1.Items[0].ChildItems[0].ToolTip = "REQUERIMIENTO DE COMPRAS";
+        #Menu1.Items[0].ChildItems[0].Value = "REQUERIMIENTO DE COMPRAS";
+     
+
 
         Menu1.Items[2].Text = "INVENTARIOS";
         Menu1.Items[2].ToolTip = "INVENTARIOS";
@@ -84,6 +93,7 @@ public partial class Principal : System.Web.UI.MasterPage
         else if (id_rol == 2) //Perfil PROVEEDORES
         {
             Menu1.Items[1].Enabled = true;
+            Menu1.Items[1].ChildItems[1].Enabled = true;
         }
         else if (id_rol == 3)//Perfil INVENTARIOS
         {
