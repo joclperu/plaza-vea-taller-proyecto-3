@@ -7,65 +7,21 @@ using System.Data.SqlClient;
 
 namespace SPV.BE
 {
-    public class NotaIngreso
+    public class IngresoMercaderia
     {
         string strSql;
         string strCadenaConexion;
 
-        public NotaIngreso()
+        public IngresoMercaderia()
         {
             SPV.BE.DA_GENERAL Cadena = new SPV.BE.DA_GENERAL();
             strCadenaConexion = Cadena.ObtenerCadena();
         }
 
-        public int ObtenerCorrelativoNotaIngreso()
-        {
-            SqlConnection cn = new SqlConnection(strCadenaConexion);
-            SqlCommand cmd = new SqlCommand("usp_sel_CorrelativoNotaIngreso", cn);
-
-            cmd.CommandType = CommandType.StoredProcedure;
-
-            cn.Open();
-            int codigo = Convert.ToInt32(cmd.ExecuteScalar());
-            cn.Close();
-            return codigo;
-        }
-
-
-        public void RegistraNotaIngreso(int CodNotaIngreso, string CodGuiaRemision, string Fecha)
-        {
-            SqlConnection cn = new SqlConnection(strCadenaConexion);
-            SqlCommand cmd = new SqlCommand("usp_ins_NotaIngreso", cn);
-
-            cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.Add("@CodNotaIngreso", SqlDbType.Int).Value = CodNotaIngreso;
-            cmd.Parameters.Add("@CodGuiaRemision", SqlDbType.VarChar).Value = CodGuiaRemision;
-            cmd.Parameters.Add("@Fecha", SqlDbType.VarChar).Value = Fecha;
-  
-            cn.Open();
-            cmd.ExecuteNonQuery();
-            cn.Close();
-        }
-
-        public void RegistraDetalleNotaIngreso(int CodNotaIngreso, int CodProducto, int Cantidad)
-        {
-            SqlConnection cn = new SqlConnection(strCadenaConexion);
-            SqlCommand cmd = new SqlCommand("usp_ins_DetalleNotaIngreso", cn);
-
-            cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.Add("@CodNotaIngreso", SqlDbType.Int).Value = CodNotaIngreso;
-            cmd.Parameters.Add("@CodProducto", SqlDbType.Int).Value = CodProducto;
-            cmd.Parameters.Add("@Cantidad", SqlDbType.Int).Value = Cantidad;
-
-            cn.Open();
-            cmd.ExecuteNonQuery();
-            cn.Close();
-        }
-
-        public DataTable ListaNotaIngresoCodigoOC(int CodigoOC)
+        public DataTable OrdenCompraUsuario(string OrdenCompra, string Usuario)
         {
 
-            strSql = "usp_sel_NotaIngresoCodigoOC";
+            strSql = "usp_sel_OrdenCompraUsuario";
 
             try
             {
@@ -75,7 +31,8 @@ namespace SPV.BE
                     using (SqlCommand sqlCmd = new SqlCommand(strSql, sqlCnx))
                     {
                         sqlCmd.CommandType = CommandType.StoredProcedure;
-                        sqlCmd.Parameters.Add("@CodigoOC", SqlDbType.Int).Value = CodigoOC;
+                        sqlCmd.Parameters.Add("@OrdenCompra", SqlDbType.VarChar).Value = OrdenCompra;
+                        sqlCmd.Parameters.Add("@Usuario", SqlDbType.VarChar).Value = Usuario;
 
                         sqlCmd.ExecuteNonQuery();
 
@@ -97,11 +54,10 @@ namespace SPV.BE
             }
         }
 
-
-        public DataTable ListaNotaIngreso(int NotaIngreso)
+        public DataTable OrdenCompraProductos(string CodigoOrdenCompra)
         {
 
-            strSql = "usp_sel_ListaNotaIngreso";
+            strSql = "usp_sel_OrdenCompraProductos";
 
             try
             {
@@ -111,7 +67,7 @@ namespace SPV.BE
                     using (SqlCommand sqlCmd = new SqlCommand(strSql, sqlCnx))
                     {
                         sqlCmd.CommandType = CommandType.StoredProcedure;
-                        sqlCmd.Parameters.Add("@NotaIngreso", SqlDbType.Int).Value = NotaIngreso;
+                        sqlCmd.Parameters.Add("@CodigoOC", SqlDbType.VarChar).Value = CodigoOrdenCompra;
 
                         sqlCmd.ExecuteNonQuery();
 
@@ -133,11 +89,10 @@ namespace SPV.BE
             }
         }
 
-
-        public DataTable ListaDetalleNotaIngreso(int NotaIngreso)
+        public DataTable OrdenCompraProductosPendientes(string CodigoOrdenCompra)
         {
 
-            strSql = "usp_sel_DetalleNotaIngreso";
+            strSql = "usp_sel_OrdenCompraProductosPendientes";
 
             try
             {
@@ -147,7 +102,7 @@ namespace SPV.BE
                     using (SqlCommand sqlCmd = new SqlCommand(strSql, sqlCnx))
                     {
                         sqlCmd.CommandType = CommandType.StoredProcedure;
-                        sqlCmd.Parameters.Add("@NotaIngreso", SqlDbType.Int).Value = NotaIngreso;
+                        sqlCmd.Parameters.Add("@CodigoOC", SqlDbType.VarChar).Value = CodigoOrdenCompra;
 
                         sqlCmd.ExecuteNonQuery();
 
@@ -168,11 +123,7 @@ namespace SPV.BE
                 return null;
             }
         }
-
-
 
 
     }
-
-
 }
