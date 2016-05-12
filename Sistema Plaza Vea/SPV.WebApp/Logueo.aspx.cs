@@ -73,7 +73,7 @@ public partial class Logueo : PaginaBase
 
                 ProfileCommon profile = Profile.GetProfile(oUsuario.CUSR_ID);
                 profile.Usuario = oUsuario;
-                profile.UserName = oUsuario.no_apellido_paterno + " " + oUsuario.no_apellido_materno + " " + oUsuario.no_usuario;
+                profile.UserName = oUsuario.no_apellido_paterno + " " + oUsuario.no_apellido_materno + ", " + oUsuario.no_usuario;
                 profile.id_usuario = oUsuario.id_usuario;
                 profile.PageSize = 15;
                 profile.PageSizeMant = 13;

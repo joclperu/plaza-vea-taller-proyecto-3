@@ -23,6 +23,8 @@ namespace SPV.BE
         private String _fe_cambio;
         private Int32 _id_usuario_cambio;
         private String _de_usuario_cambio;
+
+        private String _de_proveedor;
         #endregion
 
         #region "Propiedades"
@@ -102,6 +104,12 @@ namespace SPV.BE
         {
             get { return _de_usuario_cambio; }
             set { _de_usuario_cambio = value; }
+        }
+
+        public String de_proveedor
+        {
+            get { return _de_proveedor; }
+            set { _de_proveedor = value; }
         }
         #endregion
     }

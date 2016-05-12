@@ -1,0 +1,296 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	renamed:    BD_SPV 01-05-2016 -> BD_SPV 12-05-2016
+#	new file:   Prueba Web Service/About.aspx
+#	renamed:    Sistema Plaza Vea/SPV.WebApp/SPV_Inventario/Menu.aspx.cs -> Prueba Web Service/About.aspx.cs
+#	new file:   Prueba Web Service/Account/ChangePassword.aspx
+#	new file:   Prueba Web Service/Account/ChangePassword.aspx.cs
+#	new file:   Prueba Web Service/Account/ChangePasswordSuccess.aspx
+#	new file:   Prueba Web Service/Account/ChangePasswordSuccess.aspx.cs
+#	new file:   Prueba Web Service/Account/Login.aspx
+#	new file:   Prueba Web Service/Account/Login.aspx.cs
+#	new file:   Prueba Web Service/Account/Register.aspx
+#	new file:   Prueba Web Service/Account/Register.aspx.cs
+#	new file:   Prueba Web Service/Account/Web.config
+#	new file:   Prueba Web Service/App_WebReferences/ServicioCompras/Reference.svcmap
+#	new file:   Prueba Web Service/App_WebReferences/ServicioCompras/WebService_Compras.disco
+#	new file:   Prueba Web Service/App_WebReferences/ServicioCompras/WebService_Compras.wsdl
+#	new file:   Prueba Web Service/App_WebReferences/ServicioCompras/configuration.svcinfo
+#	new file:   Prueba Web Service/App_WebReferences/ServicioCompras/configuration91.svcinfo
+#	new file:   Prueba Web Service/Default.aspx
+#	new file:   Prueba Web Service/Default.aspx.cs
+#	new file:   Prueba Web Service/Global.asax
+#	new file:   Prueba Web Service/Scripts/jquery-1.4.1-vsdoc.js
+#	new file:   Prueba Web Service/Scripts/jquery-1.4.1.js
+#	new file:   Prueba Web Service/Scripts/jquery-1.4.1.min.js
+#	new file:   Prueba Web Service/Site.master
+#	new file:   Prueba Web Service/Site.master.cs
+#	new file:   Prueba Web Service/Styles/Site.css
+#	new file:   Prueba Web Service/Web.config
+#	new file:   Sistema Plaza Vea/SPV.BE/AreaBE.cs
+#	new file:   Sistema Plaza Vea/SPV.BE/CabeceraOrdenCompraBE.cs
+#	modified:   Sistema Plaza Vea/SPV.BE/CabeceraRequerimientoCompraBE.cs
+#	deleted:    Sistema Plaza Vea/SPV.BE/DA_GENERAL.cs
+#	modified:   Sistema Plaza Vea/SPV.BE/DetalleRequerimientoCompraBE.cs
+#	deleted:    Sistema Plaza Vea/SPV.BE/GuiaRemision.cs
+#	deleted:    Sistema Plaza Vea/SPV.BE/IngresoMercaderia.cs
+#	deleted:    Sistema Plaza Vea/SPV.BE/Kardex.cs
+#	new file:   Sistema Plaza Vea/SPV.BE/MaestroBE.cs
+#	new file:   Sistema Plaza Vea/SPV.BE/Message.cs
+#	deleted:    Sistema Plaza Vea/SPV.BE/NotaIngreso.cs
+#	deleted:    Sistema Plaza Vea/SPV.BE/OrdenCompra.cs
+#	new file:   Sistema Plaza Vea/SPV.BE/ProductoBE.cs
+#	modified:   Sistema Plaza Vea/SPV.BE/SPV.BE.csproj
+#	deleted:    Sistema Plaza Vea/SPV.BE/Tienda.cs
+#	deleted:    Sistema Plaza Vea/SPV.BE/Usuario.cs
+#	deleted:    Sistema Plaza Vea/SPV.BL/GuiaRemision.cs
+#	deleted:    Sistema Plaza Vea/SPV.BL/IngresoMercaderia.cs
+#	deleted:    Sistema Plaza Vea/SPV.BL/Kardex.cs
+#	deleted:    Sistema Plaza Vea/SPV.BL/NotaIngreso.cs
+#	deleted:    Sistema Plaza Vea/SPV.BL/OrdenCompra.cs
+#	modified:   Sistema Plaza Vea/SPV.BL/SPV.BL.csproj
+#	new file:   Sistema Plaza Vea/SPV.BL/SPV_Compras/CabeceraOrdenCompraBL.cs
+#	new file:   Sistema Plaza Vea/SPV.BL/SPV_Compras/CabeceraRequerimientoCompraBL.cs
+#	new file:   Sistema Plaza Vea/SPV.BL/SPV_Compras/DetalleRequerimientoCompraBL.cs
+#	new file:   Sistema Plaza Vea/SPV.BL/SPV_Comun/AreaBL.cs
+#	new file:   Sistema Plaza Vea/SPV.BL/SPV_Comun/MaestroBL.cs
+#	new file:   Sistema Plaza Vea/SPV.BL/SPV_Comun/ProductoBL.cs
+#	deleted:    Sistema Plaza Vea/SPV.BL/SPV_Proveedores/Proveedor.cs
+#	modified:   Sistema Plaza Vea/SPV.BL/SPV_Seguridad/UsuarioBL.cs
+#	deleted:    Sistema Plaza Vea/SPV.BL/Tienda.cs
+#	deleted:    Sistema Plaza Vea/SPV.BL/Usuario.cs
+#	modified:   Sistema Plaza Vea/SPV.DA/SPV.DA.csproj
+#	new file:   Sistema Plaza Vea/SPV.DA/SPV_Compras/CabeceraOrdenCompraDA.cs
+#	new file:   Sistema Plaza Vea/SPV.DA/SPV_Compras/CabeceraRequerimientoCompraDA.cs
+#	new file:   Sistema Plaza Vea/SPV.DA/SPV_Compras/DetalleRequerimientoCompraDA.cs
+#	new file:   Sistema Plaza Vea/SPV.DA/SPV_Comun/AreaDA.cs
+#	new file:   Sistema Plaza Vea/SPV.DA/SPV_Comun/MaestroDA.cs
+#	new file:   Sistema Plaza Vea/SPV.DA/SPV_Comun/ProductoDA.cs
+#	deleted:    Sistema Plaza Vea/SPV.DA/SPV_Proveedores/Proveedor.cs
+#	modified:   Sistema Plaza Vea/SPV.DA/SPV_Seguridad/UsuarioDA.cs
+#	deleted:    Sistema Plaza Vea/SPV.WebApp/App_Code/UtilitarioWeb.cs
+#	new file:   Sistema Plaza Vea/SPV.WebApp/App_Code/WebService_Compras.cs
+#	modified:   Sistema Plaza Vea/SPV.WebApp/App_Themes/Default/Default.css
+#	modified:   Sistema Plaza Vea/SPV.WebApp/App_Themes/Default/MenuStyles.css
+#	renamed:    Sistema Plaza Vea/SPV.WebApp/App_Themes/Default/SGO_SkinFile.skin -> Sistema Plaza Vea/SPV.WebApp/App_Themes/Default/SPV_SkinFile.skin
+#	modified:   Sistema Plaza Vea/SPV.WebApp/App_Themes/Default/TabStyles.css
+#	deleted:    Sistema Plaza Vea/SPV.WebApp/Images/Flash/Thumbs.db
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/Mantenimiento/Thumbs.db
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/Mantenimiento/fba.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/Mantenimiento/fbarr.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/Tabs/Thumbs.db
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/Tabs/borabajo.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/Tabs/borarriba.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/Tabs/tab-cen.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/Tabs/tab-cen_off_plom.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/Tabs/tab-cen_on.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/Tabs/tab-der.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/Tabs/tab-der_off_plom.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/Tabs/tab-der_on.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/Tabs/tab-izq.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/Tabs/tab-izq_off_plom.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/Tabs/tab-izq_on.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/Bold.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/auto_amarillo.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/auto_anaran.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/auto_rojo.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/auto_verde.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-QAlisto.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-QAlisto2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-abrirstock.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-abrirstock2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-accesorios.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-accesorios2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-accesoriosopc.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-accesoriosopc2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-anular.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-anular2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-anularGS.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-anularGS2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-aprobGS.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-aprobGS2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-aprobarod.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-aprobarod2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-aprobarproceso.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-aprobarproceso2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-aprobarsalida.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-aprobarsalida2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-asignarplaca.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-asignarplaca2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-cancelar_envio.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-cancelar_envio2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-cancelareserva.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-cancelareserva2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-cancelarnota.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-cancelarnota2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-cancelarsol.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-cancelarsol2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-cerrar_MP.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-cerrar_MP2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-cerrarincidencia.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-cerrarincidencia2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-concluido.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-concluido2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-conductores.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-conductores2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-confimarnota.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-confimarnota2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-confirmar1.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-confirmar2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-confirmarsol.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-confirmarsol2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-conformidad.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-conformidad2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-confrimarreserva.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-confrimarreserva2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-constituir.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-constituir2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-definpagado.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-definpagado2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-dep_adu.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-dep_adu2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-eliminarfoto.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-eliminarfoto2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-enseguimiento.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-enseguimiento2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-entregado.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-entregado2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-enviardesadua.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-enviardesadua2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-enviarexonerar.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-enviarexonerar2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-enviarliberar.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-enviarliberar2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-enviarnota.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-enviarnota2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-enviarnumeracion.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-enviarnumeracion2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-enviarsolaprob.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-enviarsolaprob2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-enviarsolgerente.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-enviarsolgerente2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-exonerar.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-exonerar2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-guiasalida.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-guiasalida2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-imp_defi.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-imp_defi2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-incidencia.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-incidencia2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-liberacioncontable.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-liberacioncontable2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-liberaciondefinitiva.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-liberaciondefinitiva2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-libres.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-libres2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-logo.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-logo2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-modificarcantidad.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-modificarcantidad2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-modificarimporte.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-modificarimporte2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-movilizarPDI.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-movilizarPDI2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-obs.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-obs2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-ordendespacho.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-ordendespacho2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-previsualizar.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-previsualizar2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-propietarios.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-propietarios2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-publicarstock.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-publicarstock2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-recalcular.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-recalcular2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-recepcionado.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-recepcionado2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-registrofecha.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-registrofecha2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-registroterminado.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-registroterminado2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-reprocesar.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-revertir.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-revertir2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-sinregimen.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-sinregimen2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-stockcerrado.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-stockcerrado.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-stockcerrado1.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-stockcerrado12.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-stockcerrado2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-stockcerrado2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-terminarorden.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-terminarorden2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-todaslasmarcas.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-todaslasmarcas2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-transformaciones.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-transformaciones2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-vercarta.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-vercarta2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-verobs.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-verobs2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-verseleccionados.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-verseleccionados2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-vertodos.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-vertodos2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-vervinasignado.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-vervinasignado2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-visualizar.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/b-visualizar2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/cambio1.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/cambio1b.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/prueba1.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/prueba1b.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/prueba2.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/prueba2b.gif
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/rojo2.jpg
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/stockcerrado.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/stockcerrado2.png
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Images/iconos/verde2.jpg
+#	modified:   Sistema Plaza Vea/SPV.WebApp/Library/JS/Mensajes.js
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Library/JS/fc_FuncComunes.js
+#	modified:   Sistema Plaza Vea/SPV.WebApp/Library/JS/fc_Validacion.js
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Library/JS/fc_ValidacionUserControl.js
+#	new file:   Sistema Plaza Vea/SPV.WebApp/Library/JS/fc_date.js
+#	modified:   Sistema Plaza Vea/SPV.WebApp/Logueo.aspx
+#	modified:   Sistema Plaza Vea/SPV.WebApp/Logueo.aspx.cs
+#	modified:   Sistema Plaza Vea/SPV.WebApp/Principal.master
+#	modified:   Sistema Plaza Vea/SPV.WebApp/Principal.master.cs
+#	modified:   Sistema Plaza Vea/SPV.WebApp/SPV_Compras/SPV_Requerimiento_Compra_Bandeja.aspx
+#	modified:   Sistema Plaza Vea/SPV.WebApp/SPV_Compras/SPV_Requerimiento_Compra_Bandeja.aspx.cs
+#	new file:   Sistema Plaza Vea/SPV.WebApp/SPV_Compras/SPV_Requerimiento_Compra_Mantenimiento.aspx
+#	new file:   Sistema Plaza Vea/SPV.WebApp/SPV_Compras/SPV_Requerimiento_Compra_Mantenimiento.aspx.cs
+#	deleted:    Sistema Plaza Vea/SPV.WebApp/SPV_Inventario/ConsultaIngreso.aspx
+#	deleted:    Sistema Plaza Vea/SPV.WebApp/SPV_Inventario/ConsultaIngreso.aspx.cs
+#	deleted:    Sistema Plaza Vea/SPV.WebApp/SPV_Inventario/IngresoMercaderia.aspx
+#	deleted:    Sistema Plaza Vea/SPV.WebApp/SPV_Inventario/IngresoMercaderia.aspx.cs
+#	deleted:    Sistema Plaza Vea/SPV.WebApp/SPV_Inventario/Login.aspx
+#	deleted:    Sistema Plaza Vea/SPV.WebApp/SPV_Inventario/Login.aspx.cs
+#	deleted:    Sistema Plaza Vea/SPV.WebApp/SPV_Inventario/MasterPage.master
+#	deleted:    Sistema Plaza Vea/SPV.WebApp/SPV_Inventario/MasterPage.master.cs
+#	deleted:    Sistema Plaza Vea/SPV.WebApp/SPV_Inventario/Menu.aspx
+#	deleted:    Sistema Plaza Vea/SPV.WebApp/SPV_Inventario/NuevoIngreso.aspx
+#	deleted:    Sistema Plaza Vea/SPV.WebApp/SPV_Inventario/NuevoIngreso.aspx.cs
+#	deleted:    Sistema Plaza Vea/SPV.WebApp/SPV_Proveedores/SPV_EvaluarPoliticaCandidato.aspx
+#	deleted:    Sistema Plaza Vea/SPV.WebApp/SPV_Proveedores/SPV_EvaluarPoliticaCandidato.aspx.cs
+#	new file:   Sistema Plaza Vea/SPV.WebApp/SPV_UserControl/ComboArea.ascx
+#	new file:   Sistema Plaza Vea/SPV.WebApp/SPV_UserControl/ComboArea.ascx.cs
+#	new file:   Sistema Plaza Vea/SPV.WebApp/SPV_UserControl/ComboDinamico.ascx
+#	new file:   Sistema Plaza Vea/SPV.WebApp/SPV_UserControl/ComboDinamico.ascx.cs
+#	new file:   Sistema Plaza Vea/SPV.WebApp/SPV_UserControl/ComboMaestro.ascx
+#	new file:   Sistema Plaza Vea/SPV.WebApp/SPV_UserControl/ComboMaestro.ascx.cs
+#	new file:   Sistema Plaza Vea/SPV.WebApp/SPV_UserControl/ComboSolicitante.ascx
+#	new file:   Sistema Plaza Vea/SPV.WebApp/SPV_UserControl/ComboSolicitante.ascx.cs
+#	new file:   Sistema Plaza Vea/SPV.WebApp/SPV_UserControl/TextBoxFecha.ascx
+#	new file:   Sistema Plaza Vea/SPV.WebApp/SPV_UserControl/TextBoxFecha.ascx.cs
+#	modified:   Sistema Plaza Vea/SPV.WebApp/Web.config
+#	new file:   Sistema Plaza Vea/SPV.WebApp/WebService_Compras.asmx
+#	modified:   Sistema Plaza Vea/Sistema Plaza Vea.sln
+#
+

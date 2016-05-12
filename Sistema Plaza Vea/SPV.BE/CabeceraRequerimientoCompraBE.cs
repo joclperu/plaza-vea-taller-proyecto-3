@@ -31,6 +31,8 @@ namespace SPV.BE
         private String _fe_rechazado;
         private String _fe_aprobado;
         private String _de_observacion;
+        private Int32 _id_area;
+        private String _de_area;
         #endregion
 
         #region "Propiedades"
@@ -158,27 +160,39 @@ namespace SPV.BE
         {
             get { return _de_observacion; }
             set { _de_observacion = value; }
+        }
+
+        public Int32 id_area
+        {
+            get { return _id_area; }
+            set { _id_area = value; }
+        }
+
+        public String de_area
+        {
+            get { return _de_area; }
+            set { _de_area = value; }
         }        
         #endregion
     }
 
     #region "Lista"
     [Serializable]
-    public class CabeceraOrdenCompraBEList : List<CabeceraRequerimientoCompraBE>
+    public class CabeceraRequerimientoCompraBEList : List<CabeceraRequerimientoCompraBE>
     {
         public void Ordenar(string propertyName, direccionOrden Direction)
         {
-            CabeceraOrdenCompraComparer dc = new CabeceraOrdenCompraComparer(propertyName, Direction);
+            CabeceraRequerimientoCompraComparer dc = new CabeceraRequerimientoCompraComparer(propertyName, Direction);
             this.Sort(dc);
         }
     }
 
-    class CabeceraOrdenCompraComparer : IComparer<CabeceraRequerimientoCompraBE>
+    class CabeceraRequerimientoCompraComparer : IComparer<CabeceraRequerimientoCompraBE>
     {
         string _prop = "";
         direccionOrden _dir;
 
-        public CabeceraOrdenCompraComparer(string propertyName, direccionOrden Direction)
+        public CabeceraRequerimientoCompraComparer(string propertyName, direccionOrden Direction)
         {
             _prop = propertyName;
             _dir = Direction;

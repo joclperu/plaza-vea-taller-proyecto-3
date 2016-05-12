@@ -1,4 +1,4 @@
-Body
+﻿Body
 {
 	SCROLLBAR-FACE-COLOR: #eaeffd;
 	SCROLLBAR-HIGHLIGHT-COLOR: #3b83cb;
@@ -16,7 +16,7 @@ Body
 }
 .cbusqueda
 {
-	FONT-SIZE: 11px;    
+	FONT-SIZE: 12px;    
 	COLOR: #555b6c;
 	FONT-FAMILY: "Arial";
 	BACKGROUND-COLOR: #dbdee7;
@@ -25,7 +25,7 @@ Body
  
 .textorojo
 {
-	FONT-SIZE: 11px;    
+	FONT-SIZE: 12px;    
 	COLOR: red;
 	FONT-FAMILY: "Arial";
 	FONT-WEIGHT: bold;
@@ -33,7 +33,7 @@ Body
 }
 .textonegrita
 {
-	FONT-SIZE: 11px;    
+	FONT-SIZE: 12px;    
 	COLOR: #666666;
 	FONT-FAMILY: "Arial";
 	FONT-WEIGHT: bold;
@@ -41,7 +41,7 @@ Body
 }
 .textofila td /*pdi*/
 {
-	FONT-SIZE: 11px;    
+	FONT-SIZE: 12px;    
 	COLOR: #666666;
 	FONT-FAMILY: "Arial";
 	FONT-WEIGHT: bold;
@@ -52,7 +52,7 @@ Body
 }
 .estado
 {
-    FONT-SIZE: 11px;    
+    FONT-SIZE: 12px;    
     COLOR: #555a6d;
     FONT-FAMILY: "Arial";
 	BACKGROUND-COLOR: #eaeef7;
@@ -80,7 +80,7 @@ Body
 }
 .textotab
 {
-    FONT-SIZE: 11px;    
+    FONT-SIZE: 12px;    
     COLOR: #555a6d;
     FONT-FAMILY: "Arial";
 }
@@ -93,7 +93,7 @@ Body
 {
     BACKGROUND-COLOR: #eaeef7;
 	border-bottom:#c5d5f0 3px solid;
-	FONT-SIZE: 11px;
+	FONT-SIZE: 12px;
     COLOR: #555a6d;
     FONT-FAMILY: "Arial";
     
@@ -102,7 +102,7 @@ Body
 {
     BACKGROUND-COLOR: #F4F7FB;
 	border-bottom:#c5d5f0 3px solid;
-	FONT-SIZE: 11px;
+	FONT-SIZE: 12px;
     COLOR: #555a6d;
     FONT-FAMILY: "Arial";
     border-left:#c5d5f0 1px solid;
@@ -111,7 +111,7 @@ Body
 }
 .leyendas
 {
-	font-size: 11px;
+	font-size: 12px;
 	font-family: Arial;
 	background-color: #eceff4;
 	color:#555b6c;
@@ -125,7 +125,7 @@ Body
 }
 .texto
 {
-    FONT-SIZE: 11px;    
+    FONT-SIZE: 12px;    
     COLOR: #555a6d;
     FONT-FAMILY: "Arial";
     BACKGROUND-COLOR: #ffffff;
@@ -154,7 +154,7 @@ Body
 
 .Paginacion
 {
-    FONT-SIZE: 11px;    
+    FONT-SIZE: 12px;    
     COLOR: #555a6d;
     FONT-FAMILY: "Arial";
     BACKGROUND-COLOR: #ffffff;
@@ -205,7 +205,7 @@ Body
 
 .CabeceraGrilla /*textoblanco*/
 {
-    FONT-SIZE: 11px;    
+    FONT-SIZE: 12px;    
     COLOR: white;
     FONT-FAMILY: "Arial";
 	text-decoration: underline;
@@ -219,7 +219,7 @@ Body
 
 .CabeceraGrilla th /*textoblanco*/
 {
-    FONT-SIZE: 11px;    
+    FONT-SIZE: 12px;    
     COLOR: white;
     FONT-FAMILY: "Arial";
 	text-decoration: underline;
@@ -244,7 +244,7 @@ Body
 }
 .CabeceraGrillaFT /*textoblanco*/
 {
-    FONT-SIZE: 11px;    
+    FONT-SIZE: 12px;    
     COLOR: white;
     FONT-FAMILY: "Arial";
 	text-decoration: underline;
@@ -356,7 +356,7 @@ Body
 .cbodes
 {
 	border: Groove 1px #d2d2d4;
-	font-size: 11px;
+	font-size: 12px;
 	font-family: Arial;
 	background-color: #f0f1f1;
 	color:#555b6c;
@@ -366,7 +366,7 @@ Body
 .cboob
 {
 	border: Solid 1px #95a6c6;
-	font-size: 11px;
+	font-size: 12px;
 	font-family: Arial;
 	background-color: #DADFE9;
 	color:#555b6c;
@@ -378,7 +378,7 @@ Body
 	border-style:groove;
 	border-width:1px;
 	border-color:#d2d2d4;
-	font-size: 11px;
+	font-size: 12px;
 	font-family: Arial;
 	background-color: #f0f1f1;
 	color:#555b6c;
@@ -387,7 +387,7 @@ Body
 .txtob
 {
 	border: Solid 1px #95a6c6;
-	font-size: 11px;
+	font-size: 12px;
 	font-family: Arial;
 	background-color: #dfe4ec;/*eceff4*/
 	color:#555b6c;
@@ -438,7 +438,7 @@ BORDER-RIGHT: #6F93C8 2px solid;
 BORDER-TOP: #6F93C8 2px solid;
 BORDER-BOTTOM: #6F93C8 2px solid;
 BORDER-LEFT: #6F93C8 2px solid;
-FONT-SIZE: 11px;
+FONT-SIZE: 12px;
 COLOR: #3B83CB;
 CURSOR:hand;
 text-transform:uppercase;
@@ -541,7 +541,7 @@ FONT-FAMILY: Verdana
 	border-spacing: 0px;
 	font-family: Arial;
 	font-weight: normal;
-	font-size: 11px; 
+	font-size: 12px; 
 	padding-top: 2px;
 	padding-bottom: 2px;
 	padding-left: 4px;
@@ -553,7 +553,7 @@ TablaDinamica td
 	text-align: left;
 	font-family: Arial;
 	font-weight: normal;
-	font-size: 11px;
+	font-size: 12px;
 	color: #404040;
 	background-color: #fafafa;
 	
@@ -564,7 +564,7 @@ TablaDinamica td
 	text-align: left;
 	font-family: Arial;
 	font-weight: normal;
-	font-size: 11px;
+	font-size: 12px;
 	color: #404040;
 	background-color: #fafafa;
 	padding-top: 4px;
@@ -576,7 +576,7 @@ TablaDinamica td
 
 .CabeceraGrillaPDI /*textoblanco*/
 {
-    FONT-SIZE: 11px;    
+    FONT-SIZE: 12px;    
     COLOR: white;
     FONT-FAMILY: "Arial";
 	text-decoration: underline;
@@ -589,7 +589,7 @@ TablaDinamica td
 
 .CabeceraGrillaPDI th /*textoblanco*/
 {
-    FONT-SIZE: 11px;    
+    FONT-SIZE: 12px;    
     COLOR: white;
     FONT-FAMILY: "Arial";
 	text-decoration: underline;
@@ -610,7 +610,7 @@ TablaDinamica td
 	font-weight:normal;
 }
 
-/* @I - 27/10/2011 */
+/* @I - 27/10/2012 */
 .txtEstadoLinea
 {
 	font-size: 12px;
@@ -618,4 +618,4 @@ TablaDinamica td
 	color:#000099;
 	font-weight:bolder;	
 }
-/* @F - 27/10/2011 */
+/* @F - 27/10/2012 */

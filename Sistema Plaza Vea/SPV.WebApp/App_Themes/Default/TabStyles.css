@@ -10,7 +10,7 @@
 .TabCabeceraOff
 {
 	font-family: Century Gothic;
-	font-size:11px;
+	font-size:12px;
 	font-weight:bold;
 	color:#bcbcbc;
 	padding-left:3px;
@@ -22,7 +22,7 @@
 .TabCabeceraOn
 {
 	font-family:Century Gothic;
-	font-size:11px;
+	font-size:12px;
 	font-weight:bold;
 	color:#002C67;
 	padding-left:3px;
@@ -33,7 +33,7 @@
 
 .txtopiepag
 {
-    FONT-SIZE: 11px;    
+    FONT-SIZE: 12px;    
     COLOR: #a1a1a1;
     FONT-FAMILY: "Arial";
     font-weight:bold;
@@ -43,7 +43,7 @@
 .TabCabeceraOffForm
 {
 	font-family: Century Gothic;
-	font-size:11px;
+	font-size:12px;
 	font-weight:bold;
 	color:#d7dbe5;
 	padding-left:3px;
@@ -55,7 +55,7 @@
 .TabCabeceraOnForm
 {
 	font-family:Century Gothic;
-	font-size:11px;
+	font-size:12px;
 	font-weight:bold;
 	color:#002C67;
 	padding-left:3px;
@@ -83,7 +83,7 @@
 .TabCabeceraOffTabToTab
 {
 	font-family: Century Gothic;
-	font-size:11px;
+	font-size:12px;
 	font-weight:bold;
 	color:#323131;
 	padding-left:3px;
@@ -96,7 +96,7 @@
 {
 	font-family:Century Gothic;
 	border-top: 1px solid #b2b2b2;
-	font-size:11px;
+	font-size:12px;
 	font-weight:bold;
 	color:#323131;
 	padding-left:3px;

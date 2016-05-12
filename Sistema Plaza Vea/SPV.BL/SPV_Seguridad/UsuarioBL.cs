@@ -33,5 +33,19 @@ namespace SPV.BL.SPV_Seguridad
             }
             return oUsuarioBE;
         }
+
+        public UsuarioBEList GetAllUserControl(Int32 id_area)
+        {
+            UsuarioDA OUsuarioDA = new UsuarioDA();
+            try
+            {
+                return OUsuarioDA.GetAllUserControlArea(id_area);
+            }
+            catch (Exception ex)
+            {
+                ErrorEvent(this, ex);
+            }
+            return null;
+        }
     }
 }

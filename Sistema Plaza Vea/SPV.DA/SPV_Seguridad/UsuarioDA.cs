@@ -77,6 +77,49 @@ namespace SPV.DA.SPV_Seguridad
                 throw;
             }
             return oUsuario;
-        }        
+        }
+
+        public UsuarioBEList GetAllUserControlArea(Int32 id_area)
+        {
+            UsuarioBEList Lista = new UsuarioBEList();
+            IDataReader DReader = null;
+            try
+            {
+                using (Database db = new Database())
+                {
+                    db.ProcedureName = "general.spv_sps_usercontrol_usuario";
+                    db.AddParameter("@id_area", DbType.Int32, ParameterDirection.Input, id_area);
+                    DReader = db.GetDataReader();
+                }
+                while (DReader.Read())
+                {
+                    UsuarioBE OUsuarioBE = CrearEntidadUserControl(DReader);
+                    Lista.Add(OUsuarioBE);
+                }
+                DReader.Close();
+            }
+            catch
+            {
+                if (DReader != null && !DReader.IsClosed) { DReader.Close(); }
+                throw;
+            }
+            return Lista;
+        }
+
+        #region Constructores
+        private UsuarioBE CrearEntidadUserControl(IDataReader DReader)
+        {
+            UsuarioBE OUsuarioBE = new UsuarioBE();
+            int Indice;
+
+            Indice = DReader.GetOrdinal("id_usuario");
+            if (!DReader.IsDBNull(Indice)) { OUsuarioBE.id_usuario = DReader.GetInt32(Indice); }
+
+            Indice = DReader.GetOrdinal("no_login");
+            OUsuarioBE.no_login = DReader.IsDBNull(Indice) ? String.Empty : DReader.GetString(Indice);
+
+            return OUsuarioBE;
+        }
+        #endregion
     }
 }

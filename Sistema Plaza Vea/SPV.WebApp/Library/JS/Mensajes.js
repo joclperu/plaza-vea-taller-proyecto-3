@@ -1,7 +1,7 @@
 ﻿//General
 var mstrGrabar = "Se grabó exitosamente.";
 var mstrErrorGrabar = "No se grabo correctamente.";
-var mstrElimino = "Se eliminó exitosamente.";
+var mstrElimino = "Se anuló exitosamente.";
 var mstrActualizar = "Se actualizó exitosamente.";
 var mstrNoElimino = "No se pudo realizar la acción, consultar con el administrador.";
 var mstrNoEliminoRelacionado = "No se puede realizar la acción,\nel registro seleccionado se encuentra relacionado con otros registros del sistema.";
@@ -11,7 +11,7 @@ var mstrSeleccioneVarios = "Debe seleccionar al menos un registro.";
 var mstrAsigneVarios = "Debe asignar al menos un registro.";
 
 var mstrSeguroGrabar = "¿Está seguro de grabar?";
-var mstrSeguroEliminarUno = "¿Está seguro de eliminar?";
+var mstrSeguroEliminarUno = "¿Está seguro de anular?";
 var mstrSeguroExtraerExactus = "¿Está seguro de extraer los datos de EXACTUS? \neste proceso puede tardar algunos minutos.";
 
 var mstrLongitudRUC = "- El campo RUC debe tener 11 caracteres.";
@@ -44,3 +44,21 @@ var mstrRangoCeroCien = " debe contener un rango del [ 0-100 ].\n";
 var mstrTotalMenoroIgualCien = "- La suma total debe ser menor o igual a 100.\n";
 var mstrFechaMala = " esta fuera del rango permitido.\n";
 var mstrFechaFueraRango = mstrDebeIngresar + " un rango de fechas válidas.";
+
+//Mensajes para asjuntar archivos
+var mstrAdjuntar = "Se adjuntó exitosamente.";
+var mstrErrorAdjuntar = "No se pudo adjuntar el archivo correctamente.";
+var mstrSeguroAdjuntar = "¿Está seguro de adjuntar el archivo?";
+
+
+
+//Mensajes Estado Requerimiento de Compra
+var mstrSeguroAprobar = "¿Está seguro de APROBAR?";
+var mstrSeguroDesaprobar = "¿Está seguro de DESAPROBAR?";
+var mstrSeguroEsperaJustificacion = "¿Está seguro de cambiar el estado a ESPERA JUSTIFICACIÓN?";
+var mstrSeguroCotizado = "¿Está seguro de cambiar el estado a COTIZADO?";
+var mstrSeguroEsperaCotizacion = "¿Está seguro de cambiar el estado a ESPERA COTIZACIÓN?";
+var mstrSeguroEsperaSolicitante = "¿Está seguro de cambiar el estado a ESPERA SOLICITANTE?";
+var mstrSeguroPendienteAprobaciono = "¿Está seguro de cambiar el estado a PENDIENTE APROBACIÓN?";
+
+var mstrCambioEstado = "Se cambió el estado de forma correcta.";

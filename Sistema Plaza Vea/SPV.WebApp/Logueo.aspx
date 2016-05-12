@@ -4,9 +4,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
 <title>Sistema Plaza Vea</title>
-<script type="text/javascript" language="javascript" src="Library/JS/Mensajes.js"></script>
-<script type="text/javascript" language="javascript" src="Library/JS/fc_FuncDisenho.js"></script>
-<script type="text/javascript" language="javascript" src="Library/JS/fc_Validacion.js"></script>
+    <script type="text/javascript" language="javascript" src="Library/JS/fc_FuncComunes.js"></script>
+    <script type="text/javascript" language="javascript" src="Library/JS/Mensajes.js"></script>
+    <script type="text/javascript" language="javascript" src="Library/JS/fc_FuncDisenho.js"></script>
+    <script type="text/javascript" language="javascript" src="Library/JS/fc_date.js"></script>
+    <script type="text/javascript" language="javascript" src="Library/JS/fc_Validacion.js"></script>
 <script type="text/javascript">
     function fc_Enter(e) {
         if (e == null) { e = window.event; }
