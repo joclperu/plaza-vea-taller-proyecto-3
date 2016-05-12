@@ -48,7 +48,6 @@ public partial class Principal : System.Web.UI.MasterPage
         Menu1.Items[3].Enabled = false;
 
         #region "Menú compras"
-
         Menu1.Items[0].Text = "PROVEEDORES";
         Menu1.Items[0].ToolTip = "PROVEEDORES";
         Menu1.Items[0].Value = "PROVEEDORES";
@@ -59,15 +58,10 @@ public partial class Principal : System.Web.UI.MasterPage
         Menu1.Items[0].ChildItems[0].Value = "Evaluar Politicas Candidato";
         #endregion
 
-        
         Menu1.Items[1].Text = "COMPRAS";
         Menu1.Items[1].ToolTip = "COMPRAS";
         Menu1.Items[1].Value = "COMPRAS";
 
-        #Menu1.Items[0].ChildItems[0].NavigateUrl = "~/SPV_Compras/SPV_Requerimiento_Compra_Bandeja.aspx";
-        #Menu1.Items[0].ChildItems[0].Text = "REQUERIMIENTO DE COMPRAS";
-        #Menu1.Items[0].ChildItems[0].ToolTip = "REQUERIMIENTO DE COMPRAS";
-        #Menu1.Items[0].ChildItems[0].Value = "REQUERIMIENTO DE COMPRAS";
      
 
 
