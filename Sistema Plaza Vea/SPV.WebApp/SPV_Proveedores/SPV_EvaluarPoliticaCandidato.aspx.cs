@@ -18,7 +18,7 @@ public partial class SPV_Proveedores_SPV_EvaluarPoliticaCandidato : System.Web.U
         if (!IsPostBack)
         {
             objUtilitario = new UtilitarioWeb();
-            objUtilitario.cargarComboYSeleccione(ddlConvocatoria, blProveedor.ListarConvocatoria(), "nombre", "codigo", "Todos..");
+            objUtilitario.cargarComboYSeleccione(ddlConvocatoria, blProveedor.ListarConvocatoria(), "CODIGO", "CODIGO", "Todos..");
             listarCandidatos();
         }
 
@@ -60,9 +60,52 @@ public partial class SPV_Proveedores_SPV_EvaluarPoliticaCandidato : System.Web.U
         lblDescripcion.Text = Server.HtmlDecode(row.Cells[1].Text);
         lblRazonSocial.Text = Server.HtmlDecode(row.Cells[3].Text);
         lblRuc.Text = Server.HtmlDecode(row.Cells[4].Text);
-        lnkDescargar.Text = "Descargar Politica de Convocatoria";
+        hplDescargar.Visible = true;
+        hplDescargar.Text = "Descargar Politica de Convocatoria";
         
 
 
+    }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        if (hdCodPropuesta.Value=="")
+        {
+            lblMensaje.Text="Seleccione un candidato.";
+            mpeMensajeConfirm1.Show();
+            return;
+        }
+
+        if (txtObservacion.Text.Trim() == "")
+        {
+            lblMensaje.Text = "Debe ingresar las observaciones.";
+            mpeMensajeConfirm1.Show();
+            return;
+        }
+
+        if (ddlEstado.SelectedIndex == 0)
+        {
+            lblMensaje.Text = "Seleccione un estado.";
+            mpeMensajeConfirm1.Show();
+            return;
+        }
+
+
+
+
+
+        blProveedor.RegistrarInforme(Convert.ToInt32(hdCodPropuesta.Value), ddlEstado.SelectedValue, txtObservacion.Text.Trim());
+
+        lblMensaje.Text = "Informe Registrado Satisfactoriamente.";
+        mpeMensajeConfirm1.Show();
+       
+    
+     }
+    protected void btCerrar_Click(object sender, EventArgs e)
+    {
+        mpeMensajeConfirm1.Hide();
+    }
+    protected void Button2_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("~/Logueo.aspx");
     }
 }
