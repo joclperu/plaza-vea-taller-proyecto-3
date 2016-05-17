@@ -52,7 +52,10 @@ public partial class Principal : System.Web.UI.MasterPage
         mnuItem2.NavigateUrl = "~/Pages/RegistroIngresoMercaderia.aspx";
         mnuItem.ChildItems.Add(mnuItem2);
 
-
+        #region "Menú compras"
+        Menu1.Items[0].Text = "PROVEEDORES";
+        Menu1.Items[0].ToolTip = "PROVEEDORES";
+        Menu1.Items[0].Value = "PROVEEDORES";
 
         Menu1.Items.Add(mnuItem);
 
@@ -67,6 +70,11 @@ public partial class Principal : System.Web.UI.MasterPage
         mnuItem2.Text = "SALIDA DE MERCADERÍA";
         mnuItem2.NavigateUrl = "~/Pages/SalidaMercaderia.aspx";
         mnuItem.ChildItems.Add(mnuItem2);
+        Menu1.Items[1].Text = "COMPRAS";
+        Menu1.Items[1].ToolTip = "COMPRAS";
+        Menu1.Items[1].Value = "COMPRAS";
+
+     
 
 
         //Hijos

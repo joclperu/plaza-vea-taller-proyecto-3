@@ -1,0 +1,145 @@
+﻿.body
+{
+    FONT-SIZE: 10px;
+    COLOR: #183334;
+    FONT-FAMILY: Arial
+}
+.cabeceraMenu
+{
+    BORDER-RIGHT: #183334 1px solid;
+    PADDING-RIGHT: 4px;
+    BORDER-TOP: #183334 1px solid;
+    MARGIN-TOP: 4px;
+    PADDING-LEFT: 4px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: large;
+    BACKGROUND: #39797b;
+    PADDING-BOTTOM: 4px;
+    VERTICAL-ALIGN: middle;
+    BORDER-LEFT: #183334 1px solid;
+    CURSOR: pointer;
+    COLOR: white;
+    PADDING-TOP: 4px;
+    BORDER-BOTTOM: #183334 1px solid;
+    FONT-FAMILY: Arial
+}
+.nodoMenu
+{
+    PADDING-RIGHT: 8px;
+    PADDING-LEFT: 8px;
+    FONT-SIZE: 14px;
+    PADDING-BOTTOM: 8px;
+    PADDING-TOP: 8px;
+    FONT-FAMILY: Arial
+}
+.panel
+{
+    FONT-SIZE: 11px;
+    COLOR: #183334;
+    FONT-FAMILY: Arial;
+    margin-right: 0px;
+}
+.tituloPagina
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: large;
+    COLOR: white;
+    FONT-FAMILY: Arial;
+    HEIGHT: 30px;
+    BACKGROUND-COLOR: #39797b
+}
+.subtituloSeccion
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    FONT-FAMILY: Arial
+}
+.validacion
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14px;
+    FONT-FAMILY: Arial
+}
+.boton
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    BACKGROUND-IMAGE: none;
+    COLOR: white;
+    BORDER-TOP-STYLE: outset;
+    BACKGROUND-REPEAT: repeat;
+    FONT-FAMILY: Arial;
+    BORDER-RIGHT-STYLE: outset;
+    BORDER-LEFT-STYLE: outset;
+    BACKGROUND-COLOR: blue;
+    BORDER-BOTTOM-STYLE: outset
+}
+.grillaDatos
+{
+    BORDER-TOP-STYLE: none;
+    FONT-FAMILY: Arial;
+    BORDER-RIGHT-STYLE: none;
+    BORDER-LEFT-STYLE: none;
+    BORDER-BOTTOM-STYLE: none
+}
+.cabecera
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    BACKGROUND: #c5e3e4;
+    TEXT-TRANSFORM: uppercase;
+    COLOR: #183334;
+    HEIGHT: 20px;
+    TEXT-ALIGN: center
+}
+.fila1
+{
+    FONT-SIZE: 10px
+}
+.fila2
+{
+    FONT-SIZE: 10px;
+    BACKGROUND: #fafcfc
+}
+.filaSeleccionada
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    BACKGROUND-COLOR: #dbe9f9
+}
+.calendarioCabecera
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    BACKGROUND: #c5e3e4;
+    TEXT-TRANSFORM: uppercase;
+    COLOR: #183334;
+    FONT-FAMILY: Arial;
+    HEIGHT: 20px;
+    TEXT-ALIGN: center
+}
+.calendarioDia
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    FONT-FAMILY: Arial
+}
+.calendarioContenido
+{
+    FONT-SIZE: 9px;
+    BACKGROUND: #fafcfc;
+    FONT-FAMILY: Arial
+}
+.modalBackground
+{
+    background-color:#454545;
+	
+}
+.modalPopup {
+	background-color:#ffffdd;
+	border-width:3px;
+	border-style:solid;
+	border-color:Gray;
+	padding:3px;
+	width:250px;
+}
