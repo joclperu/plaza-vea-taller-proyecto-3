@@ -43,6 +43,7 @@ public partial class Principal : System.Web.UI.MasterPage
         #region Genera Menú
         Menu1.Items[0].Enabled = false;
         Menu1.Items[0].ChildItems[0].Enabled = false;
+        Menu1.Items[0].ChildItems[1].Enabled = false;
         Menu1.Items[1].Enabled = false;
         Menu1.Items[2].Enabled = false;
         Menu1.Items[3].Enabled = false;
@@ -56,6 +57,11 @@ public partial class Principal : System.Web.UI.MasterPage
         Menu1.Items[0].ChildItems[0].Text = "REQUERIMIENTO DE COMPRAS";
         Menu1.Items[0].ChildItems[0].ToolTip = "REQUERIMIENTO DE COMPRAS";
         Menu1.Items[0].ChildItems[0].Value = "REQUERIMIENTO DE COMPRAS";
+
+        Menu1.Items[0].ChildItems[1].NavigateUrl = "~/SPV_Compras/SPV_Orden_Compra_Bandeja.aspx";
+        Menu1.Items[0].ChildItems[1].Text = "ORDEN DE COMPRAS";
+        Menu1.Items[0].ChildItems[1].ToolTip = "ORDEN DE COMPRAS";
+        Menu1.Items[0].ChildItems[1].Value = "ORDEN DE COMPRAS";
         #endregion
 
         #region Otros modulos
@@ -81,6 +87,7 @@ public partial class Principal : System.Web.UI.MasterPage
         {
             Menu1.Items[0].Enabled = true;
             Menu1.Items[0].ChildItems[0].Enabled = true;
+            Menu1.Items[0].ChildItems[1].Enabled = true;
         }
         else if (id_rol == 2) //Perfil PROVEEDORES
         {

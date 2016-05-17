@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2010
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPV.BE", "SPV.BE\SPV.BE.csproj", "{ACC4C0AB-A95A-4715-BF89-B6FCFF5209A3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPV.BL", "SPV.BL\SPV.BL.csproj", "{F27BB598-47E6-4530-806F-E7A89A6D912F}"
@@ -9,9 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPV.DA", "SPV.DA\SPV.DA.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPV.WebEvents", "SPV.WebEvents\SPV.WebEvents.csproj", "{D0D6E992-4947-4AC8-8E3F-BBED9C3AEEA6}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "localhost", "http://localhost:2859", "{80C813B8-BE41-4B03-8AD4-7179A98837AE}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SPV.WebApp(1)", "http://localhost:2859", "{80C813B8-BE41-4B03-8AD4-7179A98837AE}"
 	ProjectSection(WebsiteProperties) = preProject
-		Frontpage = "false"
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		ProjectReferences = "{acc4c0ab-a95a-4715-bf89-b6fcff5209a3}|SPV.BE.dll;{f27bb598-47e6-4530-806f-e7a89a6d912f}|SPV.BL.dll;{D303164C-FF08-4259-9D22-7A9A0BDA5505}|SPV.DA.dll;{d0d6e992-4947-4ac8-8e3f-bbed9c3aeea6}|SPV.WebEvents.dll;"
@@ -31,6 +32,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "localhost", "http://localho
 		Release.AspNetCompiler.Debug = "False"
 		SlnRelativePath = "SPV.WebApp\"
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPV.WinApp", "SPV.WinApp\SPV.WinApp.csproj", "{B4DB979A-A698-416E-8577-0E9A3A7543DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -58,6 +61,10 @@ Global
 		{80C813B8-BE41-4B03-8AD4-7179A98837AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80C813B8-BE41-4B03-8AD4-7179A98837AE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{80C813B8-BE41-4B03-8AD4-7179A98837AE}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B4DB979A-A698-416E-8577-0E9A3A7543DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4DB979A-A698-416E-8577-0E9A3A7543DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4DB979A-A698-416E-8577-0E9A3A7543DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4DB979A-A698-416E-8577-0E9A3A7543DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

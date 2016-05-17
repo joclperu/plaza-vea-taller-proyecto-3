@@ -11,7 +11,7 @@ namespace SPV.BL.SPV_Comun
         public delegate void ErrorDelegate(object sender, Exception ex);
         public event ErrorDelegate ErrorEvent;
 
-        #region Mantenimiento de Unidad Medida
+        #region Mantenimiento de Area
         public AreaBEList GetAllUserControl()
         {
             AreaDA OAreaDA = new AreaDA();

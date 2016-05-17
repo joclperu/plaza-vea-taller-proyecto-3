@@ -62,3 +62,12 @@ var mstrSeguroEsperaSolicitante = "¿Está seguro de cambiar el estado a ESPERA 
 var mstrSeguroPendienteAprobaciono = "¿Está seguro de cambiar el estado a PENDIENTE APROBACIÓN?";
 
 var mstrCambioEstado = "Se cambió el estado de forma correcta.";
+
+
+
+//Mensajes Estado Requerimiento de Compra
+var mstrSeguroEsperaStockProveedor = "¿Está seguro de cambiar el estado a ESPERA STOCK PROVEEDOR?";
+var mstrSeguroEsperaSolicitante = "¿Está seguro de cambiar el estado a ESPERA SOLICITANTE?";
+var mstrSeguroPendienteAprobacion = "¿Está seguro de cambiar el estado a PENDIENTE DE APROBACIÓN?";
+var mstrSeguroAprobar = "¿Está seguro de APROBAR?";
+var mstrSeguroDesaprobar = "¿Está seguro de DESAPROBAR?";

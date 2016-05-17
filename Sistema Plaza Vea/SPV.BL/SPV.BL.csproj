@@ -43,10 +43,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SPV_Compras\CabeceraOrdenCompraBL.cs" />
     <Compile Include="SPV_Compras\CabeceraRequerimientoCompraBL.cs" />
+    <Compile Include="SPV_Compras\DetalleOrdenCompraBL.cs" />
     <Compile Include="SPV_Compras\DetalleRequerimientoCompraBL.cs" />
+    <Compile Include="SPV_Compras\SolicitudCompraBL.cs" />
     <Compile Include="SPV_Comun\AreaBL.cs" />
     <Compile Include="SPV_Comun\MaestroBL.cs" />
     <Compile Include="SPV_Comun\ProductoBL.cs" />
+    <Compile Include="SPV_Comun\ProveedorBL.cs" />
     <Compile Include="SPV_Seguridad\UsuarioBL.cs" />
   </ItemGroup>
   <ItemGroup>
