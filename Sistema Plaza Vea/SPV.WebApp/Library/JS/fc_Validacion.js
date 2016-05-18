@@ -15,12 +15,17 @@ var RE_NUMERO_TELEFONO = /^[\d () \- /]*$/i;
 var RE_PLACA = /^[\w\d\ñÑ\-]*$/i;
 var RE_CODIGO = /^[\w\d\-_.]*$/i;
 var RE_NRO_VERSION = /^[\d.]+$/i;
+<<<<<<< HEAD
 
+=======
+//var RE_NRO_DECIMAL_ESP = /^(\d*)\.{1}*\d{1,6}$/i;
+>>>>>>> upstream/master
 /******************************************************
 Descripción :    Permite validar numero decimales con un PUNTO(decimal) y enteros y 3 decimales, tbn acepta solo enteros (positivos) - RE_NRO_DECIMALM
 Autor 		:    Remy Yactayo Hinostroza
 Fecha/hora	:    20/04/2010
 ******************************************************/
+<<<<<<< HEAD
 
 /******************************************************
 Descripción :    Permite Redondear un numero con el numero de decimales q se desee
@@ -1739,3 +1744,6 @@ function fc_ValidarRuc(strNomRuc)
             
             return cadena;
 		}
+=======
+var RE_NRO_DECIMALM = '' ; 
+>>>>>>> upstream/master
