@@ -12,7 +12,6 @@ namespace SPV.BL.SPV_Seguridad
         public delegate void ErrorDelegate(object sender, Exception ex);
         public event ErrorDelegate ErrorEvent;
 
-<<<<<<< HEAD
         public UsuarioBE ValidaLogeoUsuario(String usuario, String pass, out String indLogeo, out String msgLogeo)
         {
             UsuarioDA oUsuarioDA = new UsuarioDA();
@@ -48,28 +47,5 @@ namespace SPV.BL.SPV_Seguridad
             }
             return null;
         }
-=======
-        //public void ValidaLogeoUsuario(String usuario, String pass, out String indLogeo, out String msgLogeo)
-        //{
-        //    //UsuarioDA oUsuarioDA = new UsuarioDA();
-        //    //UsuarioBE oUsuarioBE = null;
-        //    //indLogeo = "0";
-        //    //msgLogeo = String.Empty;
-        //    //try
-        //    //{
-        //    //    oUsuarioBE = oUsuarioDA.ValidaLogeoUsuario(usuario, pass);
-        //    //    if (oUsuarioBE == null)
-        //    //    {
-        //    //        indLogeo = "1";
-        //    //        msgLogeo = "Usuario no existe.";
-        //    //    }
-        //    //}
-        //    //catch (Exception ex)
-        //    //{
-        //    //    ErrorEvent(this, ex);
-        //    //}
-        //    //return oUsuarioBE;
-        //}
->>>>>>> upstream/master
     }
 }

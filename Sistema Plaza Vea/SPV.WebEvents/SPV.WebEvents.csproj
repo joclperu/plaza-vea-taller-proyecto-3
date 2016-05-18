@@ -40,7 +40,6 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TransactionFailureEvent.cs" />
-    <Compile Include="util_ValidarDatos.cs" />
     <Compile Include="WebFailureEvent.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
