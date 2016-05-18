@@ -68,6 +68,7 @@
     </td><td style="height: 23px"></td></tr>
 
 
+
 <tr><td style="height: 23px">
     Politica Convocatoria :</td><td style="height: 23px">
         <asp:HyperLink ID="hplDescargar" runat="server" ForeColor="#0066FF" NavigateUrl="~/SPV_Proveedores/Politicas/RH_SergioLapa.pdf" Visible="False" Target="_blank">HyperLink</asp:HyperLink>
