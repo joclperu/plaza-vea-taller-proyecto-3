@@ -6,6 +6,7 @@ using System.Text;
 using System.Data;
 using System.Data.SqlClient;
 
+
 namespace SPV.DA.SPV_Proveedores
 {
    public class Proveedor
